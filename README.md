@@ -1,5 +1,5 @@
 ## starbucks
-스타벅스 웹사이트
+![스타벅스 웹사이트](https://rhrh1159.github.io/starbucks/images/starbucks_logo.png)
 ## Favicon(파비콘, favorites icon)
 
 웹페이지를 나타내는 아이콘, 웹페이지의 로고를 설정합니다.  
