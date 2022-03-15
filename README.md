@@ -139,8 +139,8 @@ function random(min, max) {
 ```
 ## swiper슬라이드
 ```html
-  <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+ <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 ```
 ```html
 <!-- Slider main container -->
@@ -166,7 +166,7 @@ function random(min, max) {
 ```
 ```html
 //AWARDS--------
-new Swiper('.awards .swiper', {
+new Swiper('.변경 .swiper', {
     direction: 'horizontal', //방향
     loop: true, //무한반복
     autoplay : true, //자동시작
