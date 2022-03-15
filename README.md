@@ -164,7 +164,7 @@ function random(min, max) {
   <div class="swiper-scrollbar"></div>
 </div>
 ```
-```html
+```javascript
 //AWARDS--------
 new Swiper('.변경 .swiper', {
     direction: 'horizontal', //방향
@@ -176,6 +176,17 @@ new Swiper('.변경 .swiper', {
         prevEl : ".변경 .swiper-prev",
         nextEl : ".변경부분 .swiper-next"
     },
+    breakpoints: { //반응형 조건 속성
+    320: { //320 이상일 경우
+      slidesPerView: 1, //레이아웃 1열
+    },
+    768: {
+      slidesPerView: 3, //3개의 레이아웃이 보이는거
+    },
+    1024: {
+      slidesPerView: 4, //4개의 레이아웃이 보이는거
+    },
+  }
 });
 ```
 
