@@ -164,4 +164,18 @@ function random(min, max) {
   <div class="swiper-scrollbar"></div>
 </div>
 ```
+```html
+//AWARDS--------
+new Swiper('.awards .swiper', {
+    direction: 'horizontal', //방향
+    loop: true, //무한반복
+    autoplay : true, //자동시작
+    slidesPerView: 5, //한 번에 보여지는 슬라이드 개수
+    spaceBetween: 30, //슬라이드와 슬라이드 간격
+    navigation : {
+        prevEl : ".변경 .swiper-prev",
+        nextEl : ".변경부분 .swiper-next"
+    },
+});
+```
 
