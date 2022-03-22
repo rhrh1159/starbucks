@@ -276,36 +276,45 @@ header nav ul.main-menu li.item .item__contents .contents__texture p{
 }
 /* ---- main visual Arae ---- */
 .visual{
+    
     position: relative;
    margin-top: 120px;
-    background: url(../images/visual_bg.jpg) no-repeat center;
+    background: url(../images/2022_Spring_main_bg.jpeg) no-repeat center;
+    background-size:cover;
 }
-.visual .inner{height: 646px; }
+.visual .inner{height: 700px; }
 .visual .title{
     position: absolute;
-    top: 88px;
-    left: 10px;
+    top: 70px;
+    left: 8px;
 }
 .visual .title .btn{
     position: absolute;
-    left: 175px;
-    top: 250px;
+    left: 105px;
+    top: 180px;
+    border-color: #E95A87;
+    color: #E95A87;
+}
+.visual .title .btn:hover{
+    text-decoration: underline;
+   background-color: #fff;
+   color: #E95A87;
 }
 .visual .cup1.image{
     position: absolute;
-    top: 40px;
-    right: -48px;
+    bottom: 20px;
+    right: -170px;
 }
 .visual .cup1.text{
     position: absolute;
-    top: 20px;
+    top: 190px;
     right: 170px;
 }
 /* cup2 */
 .visual .cup2.image{
     position: absolute;
-    bottom: 0px;
-    right: 160px;
+    bottom: 90px;
+    right: 60px;
 }
 .visual .cup2.text{
     position: absolute;
@@ -314,8 +323,8 @@ header nav ul.main-menu li.item .item__contents .contents__texture p{
 }
 .visual .spoon{
     position: absolute;
-    bottom: 0;
-    left: 275px;
+    bottom: 20px;
+    left: 220px;
 }
 .visual .fade-in{opacity: 0;}
 
@@ -408,10 +417,10 @@ header nav ul.main-menu li.item .item__contents .contents__texture p{
     transition: height 0.4s;
 }
 /* javascript로 제어할부분 */
-.notice .promotion .hide{
+.notice .promotion.hide{
     height: 0;
 }
-.notice .promotion  .swiper{
+.notice .promotion .swiper{
     /*819*3+20 = 2,477 은 좌우 스크롤이 나오게 된다 
     그래서 calc함수를 이용 하고 
     overflow:hidden 을 이용 해서 잘리게 했다.*/
