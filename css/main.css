@@ -597,9 +597,11 @@ header nav ul.main-menu li.item .item__contents .contents__texture p{
 }
 /* season prodouct */
 .season-product{
-    background: url(../images/season_product_bg.jpg);
+    background: url(../images/2022_Spring_bean_bg_1.jpeg);
+   
 }
-.season-product .inner{height: 400px;}
+.season-product .inner{height: 600px;}
+.season-product .inner img{padding-top: 70px;}
 .season-product .inner .floating3{
     position: absolute;
     top: -200px;
@@ -616,10 +618,12 @@ header nav ul.main-menu li.item .item__contents .contents__texture p{
 }
 /* reserve coffee  */
 .reserve-coffee{
-    background: url(../images/reserve_bg.jpg);
+    background: url(../images/reserve_2022_ethiopia_visual.jpeg);
+    background-size:cover;
+    
 
 }
-.reserve-coffee .inner{height: 400px;}
+.reserve-coffee .inner{height: 500px;}
 .reserve-coffee .reserve-logo{
     position: absolute;
     top: 110px;
@@ -627,8 +631,8 @@ header nav ul.main-menu li.item .item__contents .contents__texture p{
 }
 .reserve-coffee .text-group{
     position: absolute;
-    top: 124px;
-    left: 210px;
+    top: 300px;
+    left: 250px;
 }
 .reserve-coffee .reserve{
     position: absolute;
@@ -642,6 +646,11 @@ header nav ul.main-menu li.item .item__contents .contents__texture p{
 }
 .pick-your-favorite .inner{
     padding: 110px 0;
+}
+.pick-your-favorite .inner .img2{
+    position: absolute;
+    right: -50px;
+    
 }
 .pick-your-favorite .text-group{
     margin-left: 100px;
